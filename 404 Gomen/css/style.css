@@ -28,14 +28,14 @@ body{
 
 .bubble-3 {
     right: 225px;
-    animation-delay: 4.7s;
+    animation-delay: 0s;
 }
 .bubble-3 .bubble-animation-y{
     animation-delay: 3.8s;
 }
 
 .bubble-4 {
-    left: 285px;
+    left: 200px;
     animation-delay: 0s;
 }
 .bubble-4 .bubble-animation-y{
@@ -51,21 +51,21 @@ body{
 }
 .moji-1 {
     left: 100px;
-    animation-delay: 1.5s;
+    animation-delay: 0.5s;
 }
 .moji-1 .moji-animation-y{
     animation-delay: 3s;
 }
 .moji-2 {
     right: 100px;
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
 }
 .moji-2 .moji-animation-y{
     animation-delay: 3s;
 }
 .moji-3 {
     right: 50px;
-    animation-delay: 3.5s;
+    animation-delay: 0.5s;
 }
 .moji-3 .moji-animation-y{
     animation-delay: 4s;
