@@ -1,0 +1,169 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+    
+}
+
+body{
+    background-color:turquoise;
+}
+
+.bubble-1 {
+    right: 300px;
+    animation-delay: 1.3s;
+}
+.bubble-1 .bubble-animation-y{
+    animation-delay: 0.7s;
+}
+
+.bubble-2 {
+    right: 33px;
+    animation-delay: 2s;
+}
+.bubble-2 .bubble-animation-y{
+    animation-delay: 2.1s;
+}
+
+.bubble-3 {
+    right: 225px;
+    animation-delay: 4.7s;
+}
+.bubble-3 .bubble-animation-y{
+    animation-delay: 3.8s;
+}
+
+.bubble-4 {
+    left: 285px;
+    animation-delay: 0s;
+}
+.bubble-4 .bubble-animation-y{
+    animation-delay: 6s;
+}
+
+.bubble-5 {
+    left: 115px;
+    animation-delay: 1.5s;
+}
+.bubble-5 .bubble-animation-y{
+    animation-delay: 7s;
+}
+.moji-1 {
+    left: 100px;
+    animation-delay: 1.5s;
+}
+.moji-1 .moji-animation-y{
+    animation-delay: 5s;
+}
+
+.bubble-container {
+    position: absolute;
+    width: 161px;
+    height: 43px;
+    bottom: 0;
+}
+.moij-container {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom: 0;
+}
+
+.bubble {
+    background-image:url(../img/PIEN.png);
+    opacity: 100%;
+    width: 45px;
+    height: 45px;
+}
+.moji-1 {
+    background-image:url(../img/GOMEN.png);
+    opacity: 100%;
+    width: 161px;
+    height: 43px;
+}
+
+.bubble-animation-x {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bubbleXAnimFrames;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+.bubble-animation-y {
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: bubbleYAnimFrames;
+    animation-timing-function: linear;
+}
+.moji-animation-x {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: mojiXAnimFrames;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+.moji-animation-y {
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-name: mojiYAnimFrames;
+    animation-timing-function: linear;
+}
+
+@keyframes bubbleXAnimFrames {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+@keyframes bubbleYAnimFrames {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    95% {
+        transform: translateY(-280px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+}
+
+@keyframes mojiXAnimFrames {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+@keyframes mojiYAnimFrames {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    95% {
+        transform: translateY(-280px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+}
