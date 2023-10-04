@@ -54,7 +54,21 @@ body{
     animation-delay: 1.5s;
 }
 .moji-1 .moji-animation-y{
-    animation-delay: 5s;
+    animation-delay: 3s;
+}
+.moji-2 {
+    right: 100px;
+    animation-delay: 2.5s;
+}
+.moji-2 .moji-animation-y{
+    animation-delay: 3s;
+}
+.moji-3 {
+    right: 50px;
+    animation-delay: 3.5s;
+}
+.moji-3 .moji-animation-y{
+    animation-delay: 4s;
 }
 
 .bubble-container {
@@ -63,7 +77,7 @@ body{
     height: 43px;
     bottom: 0;
 }
-.moij-container {
+.moji-container {
     position: absolute;
     width: 25px;
     height: 25px;
@@ -76,7 +90,7 @@ body{
     width: 45px;
     height: 45px;
 }
-.moji-1 {
+.moji {
     background-image:url(../img/GOMEN.png);
     opacity: 100%;
     width: 161px;
